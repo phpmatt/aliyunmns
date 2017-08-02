@@ -17,11 +17,5 @@
         "psr-4": {
             "phpmatt\\aliyunmns\\": ""
         }
-    },
-    "repositories":[
-        {
-            "type": "git",
-            "url": "https://github.com/phpmatt/aliyunmns.git"
-        }
-    ]
+    }
 }
