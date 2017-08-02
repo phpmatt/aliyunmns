@@ -1,11 +1,10 @@
 <?php
-
 namespace phpmatt\aliyunmns;
+require_once(__DIR__.'/src/mns-autoloader.php');
 
-/**
- * This is just an example.
- */
-class AutoloadExample extends \yii\base\Widget
+use yii\base\Widget;
+
+class AliMns extends Widget
 {
     public function run()
     {
