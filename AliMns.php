@@ -24,7 +24,7 @@ class AliMns extends Controller
     $this->client = new Client($endPoint, $accessId, $accessKey);
   }
 
-  public static function Send()
+  public function Send()
   {
     return self::$client;
   }
